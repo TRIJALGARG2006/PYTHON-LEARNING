@@ -1,0 +1,5 @@
+length = int(input("enter your length of the rectangle : "))
+width = int(input("enter your width of the rectangle : "))
+print(f"the lenght of the rectangle is {length}m \nthe width of the rectangle {width}m")
+a = length*width
+print(f"{a} meter squared")
