@@ -3,6 +3,6 @@ column = int(input("enter the number of columns :"))
 symbol = input("which symbol do u want to print :")
 
 for x in range(rows) :
-    for y in range(column) :
-        print(symbol , end = " ")
+    for y in range(x) :
+        print("*" , end = " ")
     print()
